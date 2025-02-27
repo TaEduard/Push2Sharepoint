@@ -26,7 +26,7 @@ runs:
     - name: Checkout reusable action repository
       uses: actions/checkout@v2
       with:
-        repository: 'sjultra/Push2Sharepoint' # Replace with the reusable action's owner and repo name
+        repository: 'TaEduard/Push2Sharepoint' # Replace with the reusable action's owner and repo name
         ref: 'v3.4' # Replace with the desired branch, commit, or tag
         path: './action'
         
